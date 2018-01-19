@@ -34,6 +34,9 @@ ro.colorpick_adjust=true
 #Property to enable display default color mode
 vendor.display.enable_default_color_mode=1
 
+# Make data selection stick in dual SIM devices
+persist.radio.aosp_usr_pref_sel=true
+
 # Display Properties as per treble compliance
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_skip_validate=1
