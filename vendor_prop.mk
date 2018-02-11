@@ -78,6 +78,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
    dalvik.vm.boot-dex2oat-threads=8 \
    dalvik.vm.dex2oat-threads=8
 
+# Fling
+PRODUCT_PROPERTY_OVERRIDES += \
+   ro.min.fling_velocity=160 \
+   ro.max.fling_velocity=20000
+
 #Set AudioFlinger client heap size
 PRODUCT_PROPERTY_OVERRIDES += \
    vendor.audio_hal.period_size=192 \
