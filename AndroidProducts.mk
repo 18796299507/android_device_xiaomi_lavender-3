@@ -6,3 +6,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/havoc_lavender.mk
+
+COMMON_LUNCH_CHOICES := \
+    havoc_lavender-eng \
+    havoc_lavender-userdebug
