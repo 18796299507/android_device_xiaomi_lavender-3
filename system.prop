@@ -141,9 +141,6 @@ persist.debug.coresight.config=stm-events
 ##property to choose between virtual/external wfd display
 persist.sys.wfd.virtual=0
 
-#min/max cpu in core control
-ro.vendor.qti.core_ctl_min_cpu=2
-ro.vendor.qti.core_ctl_max_cpu=4
 
 #Bringup properties
 persist.vendor.radio.atfwd.start=true
