@@ -1426,6 +1426,9 @@ vendor/lib64/libtinyxml2_1.so|a2d9661cf2bb426e72ba15fd1a6a4eec940418a5
 vendor/lib/hw/vulkan.sdm660.so|d5823739c3d7e67ae702b81be13f785403c37eed
 vendor/lib64/hw/vulkan.sdm660.so|902237d165c22a3609787c1874b63aa7abb677be
 
+# IRQ balance
+vendor/bin/msm_irqbalance
+
 # Keystore
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
@@ -1532,56 +1535,6 @@ vendor/lib64/libmlipay@1.1.so
 vendor/lib64/libmlipay.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
-
-# Perf
-bin/perfservice
-etc/init/perfservice.rc
-etc/perf/whitelistedapps.xml
-lib/vendor.qti.hardware.perf@1.0.so
-lib/vendor.qti.hardware.iop@1.0.so
-lib/vendor.qti.hardware.iop@2.0.so
-lib/libqti_performance.so
-lib/libqti-util_system.so
-lib/libqti-perfd-client_system.so
-lib/libqti-iopd-client_system.so
-lib/libqti-at.so
-lib64/vendor.qti.hardware.perf@1.0.so
-lib64/vendor.qti.hardware.iop@1.0.so
-lib64/vendor.qti.hardware.iop@2.0.so
-lib64/libqti_performance.so
-lib64/libqti-util_system.so
-lib64/libqti-perfd-client_system.so
-lib64/libqti-iopd-client_system.so
-lib64/libqti-at.so
-vendor/bin/msm_irqbalance
-vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
-vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
-vendor/lib/libperfgluelayer.so
-vendor/lib/libqti-perfd-client.so
-vendor/lib/libqti-perfd.so
-vendor/lib/libqti-util.so
-vendor/lib/libqti-utils.so
-vendor/lib/vendor.qti.hardware.perf@1.0.so
-vendor/lib/vendor.qti.hardware.iop@1.0.so
-vendor/lib/vendor.qti.hardware.iop@2.0.so
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
-vendor/lib/libqti-utils.so
-vendor/lib/libqti-iopd-client.so
-vendor/lib64/libperfgluelayer.so
-vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-util.so
-vendor/lib64/libqti-utils.so
-vendor/lib64/vendor.qti.hardware.perf@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@2.0.so
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
-vendor/lib64/libqti-utils.so
-vendor/lib64/libqti-iopd-client.so
 
 # Peripheral manager
 vendor/bin/pm-proxy
