@@ -251,8 +251,8 @@ PRODUCT_BOOT_JARS += \
     org.ifaa.android.manager
 
 # IMS
-PRODUCT_PACKAGES += \
-    ims-ext-common
+#PRODUCT_PACKAGES += \
+    #ims-ext-common
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -407,11 +407,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 ## Telephony
-PRODUCT_PACKAGES += \
-    telephony-ext
+#PRODUCT_PACKAGES += \
+    #telephony-ext
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+#PRODUCT_BOOT_JARS += \
+    #telephony-ext
 
 # TextClassifier
 PRODUCT_PACKAGES += \
