@@ -359,7 +359,6 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.class_late.sh \
     init.qcom.usb.sh \
-    init.qti.qseecomd.sh \
     fstab.qcom \
     init.msm.usb.configfs.rc \
     init.qcom.usb.rc \
