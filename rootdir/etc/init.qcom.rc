@@ -327,6 +327,7 @@ on post-fs-data
 
     #Create folder of camera
     mkdir /data/vendor/camera 0770 camera camera
+    mkdir /data/misc/camera 0770 camera camera
 
     #Change ownership to system
     chown system system /data/vendor/tombstones
