@@ -69,6 +69,9 @@ TARGET_KERNEL_CONFIG := lavender-perf_defconfig
 TARGET_BOARD_PLATFORM := sdm660
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno512
 
+# APEX image
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
