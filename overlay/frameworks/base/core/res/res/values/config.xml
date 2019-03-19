@@ -679,4 +679,7 @@
          fading edges is prohibitively expensive on most GPUs. -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
 
+    <!-- Whether to enable smart clock feature -->
+    <bool name="config_enableSmartClock">true</bool>
+
 </resources>
