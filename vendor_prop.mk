@@ -65,6 +65,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
    ro.vendor.audio.voice.volume.boost=manual \
    sys.autosuspend.timeout=500000
 
+# OEM Unlock reporting
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+   ro.oem_unlock_supported=1
+
 # ART
 PRODUCT_PROPERTY_OVERRIDES += \
    dalvik.vm.dex2oat-filter=speed \
