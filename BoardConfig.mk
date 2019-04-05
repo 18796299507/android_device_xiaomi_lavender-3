@@ -250,6 +250,8 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
 
 # Vendor init
 TARGET_INIT_VENDOR_LIB := libinit_lavender
