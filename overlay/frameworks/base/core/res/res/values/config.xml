@@ -671,4 +671,6 @@
     <!-- Whether to enable smart clock feature -->
     <bool name="config_enableSmartClock">true</bool>
 
+    <!-- Specify custom blanking delay of the display -->
+    <integer name="config_screen_off_delay">0</integer>
 </resources>
