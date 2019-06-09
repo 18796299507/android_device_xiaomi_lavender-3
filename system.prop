@@ -259,3 +259,5 @@ ro.location.osnlp.region.package=
 gsm.proximity.enable=true
 ro.lge.proximity.delay=200
 mot.proximity.delay=200
+
+ro.havoc.maintainer=sYYLG
