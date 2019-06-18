@@ -250,6 +250,10 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
+# Vendor init
+TARGET_INIT_VENDOR_LIB := libinit_lavender
+TARGET_RECOVERY_DEVICE_MODULES := libinit_lavender
+
 # WiFi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
