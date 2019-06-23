@@ -261,3 +261,6 @@ ro.sf.lcd_density=440
 # network location provider is not functional
 ro.location.osnlp.package=com.google.android.gms
 ro.location.osnlp.region.package=
+
+# proximity
+gsm.proximity.enable=true
