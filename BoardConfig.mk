@@ -133,6 +133,9 @@ BOARD_USES_QCNE := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
+# Compile libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
+
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
