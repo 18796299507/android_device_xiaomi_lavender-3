@@ -235,6 +235,9 @@ sys.shenchao_nt36672a_length=38
 # Enable all system restart_level to relative
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# Thermal configs path
+sys.thermal.data.path=/data/vendor/thermal/
+
 ro.sf.lcd_density=440
 
 # ro.location properties below are used in conjunction
