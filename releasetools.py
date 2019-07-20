@@ -27,11 +27,11 @@ def IncrementalOTA_InstallEnd(info):
   return
 
 def FullOTA_Assertions(info):
-  AddBasebandAssertion(info, info.input_zip)
+  #AddBasebandAssertion(info, info.input_zip)
   return
 
 def IncrementalOTA_Assertions(info):
-  AddBasebandAssertion(info, info.target_zip)
+  #AddBasebandAssertion(info, info.target_zip)
   return
 
 def AddImage(info, basename, dest):
