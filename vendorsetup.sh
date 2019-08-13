@@ -1,3 +1,3 @@
-add_lunch_combo havoc_lavender-userdebug
+add_lunch_combo nitrogen_lavender-userdebug
 prebuilts/misc/linux-x86/ccache/ccache -M 60G
-export CCACHE_DIR=~/Havoc/.ccache
+export CCACHE_DIR=~/Nitrogen/.ccache

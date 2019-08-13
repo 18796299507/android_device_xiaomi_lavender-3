@@ -13,9 +13,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/havoc/config/common.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
-PRODUCT_NAME := havoc_lavender
+TARGET_BOOT_ANIMATION_RES := 1080
+
+PRODUCT_NAME := nitrogen_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
