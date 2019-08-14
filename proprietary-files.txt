@@ -1223,6 +1223,10 @@ vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libbase64.so
 vendor/lib64/libcpion.so
 vendor/lib64/libcppf.so
+vendor/lib64/libhdcp1prov.so
+vendor/lib64/libhdcp2p2prov.so
+vendor/lib64/libhdcpsrm.so
+vendor/lib64/liboemcrypto.so
 
 # ESE-Powermanager - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/hw/vendor.qti.esepowermanager@1.0-service|40f3291f2bddef8203d9dc3d9298e275eff800b0
