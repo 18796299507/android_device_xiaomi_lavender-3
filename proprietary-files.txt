@@ -1870,3 +1870,8 @@ vendor/lib/libwfdhdcpcp.so|d93a24a30640004f2cfd4ad0750b6c3cbcef9bcb
 vendor/lib/libwfdmodulehdcpsession.so|ee1609c30970faca5cc081f3a7282f7334963db3
 vendor/lib/libwfdmmservice.so|910dbd346aabc786d77daddf65949eb3610ecf80
 vendor/lib64/libwfdhdcpcp.so|d9bfd72076d5c657c54ac5ff9e2b6ac1e0a194f2
+
+# Temporal fix fow WhatsApp
+lib/vendor.qti.hardware.camera.device@1.0.so
+lib/vendor.qti.hardware.camera.device@3.2.so
+lib/libcameraservice.so
