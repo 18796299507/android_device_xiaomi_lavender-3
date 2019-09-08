@@ -149,6 +149,10 @@ PRODUCT_PACKAGES += \
     libxml2 \
     Snap
 
+# Shims
+PRODUCT_PACKAGES += \
+    camera.sdm660_shim
+
 # CNE
 PRODUCT_PACKAGES += \
     cneapiclient \
