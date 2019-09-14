@@ -1765,7 +1765,7 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0.so
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 
 # Radio - IMS - from LA.UM.7.2.r1-06900-sdm660.0
--priv-app/ims/ims.apk|60d5244537db8a74ed0205ea6e9a5d5e20e40f3e
+-priv-app/ims/ims.apk|58dea61205ffcee82b8d9b7431759e0eeb0f84b7
 
 # Sensors
 vendor/etc/elliptic_sensor.xml
