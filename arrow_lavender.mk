@@ -15,10 +15,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from lavender device
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/havoc/config/common.mk)
+# Inherit some common Arrow stuff
+$(call inherit-product, vendor/arrow/config/common.mk)
 
-PRODUCT_NAME := havoc_lavender
+PRODUCT_NAME := arrow_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7

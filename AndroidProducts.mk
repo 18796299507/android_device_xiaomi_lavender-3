@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_lavender.mk
+    $(LOCAL_DIR)/arrow_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_lavender-eng \
-    havoc_lavender-userdebug
+    arrow_lavender-eng \
+    arrow_lavender-userdebug
